@@ -20,4 +20,9 @@ int main()
 	ref.nim = 2;				//Member Access Operator 
 	mhs.showNim();
 
+	mahasiswa* pMhs = &mhs;		//Pointer Dereference pMhs
+	pMhs->nim = 3;				//Arrow Operator
+	pMhs->showNim();
+	system("pause");
+	return 0;
 }
