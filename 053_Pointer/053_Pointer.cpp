@@ -6,3 +6,7 @@ public:
 	int nim;
 	void showNim(); //Deklarasi method
 };
+
+void mahasiswa::showNim() { //Implementasi method di luar class
+	cout << "No Induk = " << nim << endl;
+}
